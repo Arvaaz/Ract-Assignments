@@ -83,4 +83,7 @@
         margin: 10px;
         
     }
+    #blocked{
+        display: none;
+    }
 }
