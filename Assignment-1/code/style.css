@@ -6,12 +6,12 @@
 }
 .top{
     display: flex;
-    height: 34%;
+    height: 34vh;
     width: 99vw;
 }
 .yellow{
-    width: 50vw;
-    height: 32vh;
+    width: 49.5vw;
+    height: 33vh;
     background-color: yellow;
     
     margin: 10px;
@@ -21,12 +21,12 @@
 }
 .mid{
     width: 99vw;
-    height: 34%;
+    height: 33vh;
    
 
 }
 .red{
-    width: 99vw;
+    width: 98vw;
     height: 33vh;
     background-color: red;
     margin: 10px;
@@ -35,7 +35,7 @@
 .bottom{
     display: flex;
     width: 100vw;
-    height: 34%;
+    height: 33vh;
 }
 .blue{
     width: 33vw;
@@ -65,7 +65,7 @@
         flex-direction: column;
     }
     .yellow{
-        width: 100vw;
+        width: 99vw;
         height: 15vh;
     }
     
@@ -77,7 +77,7 @@
         flex-direction: column;
     } 
     .blue{
-        width: 100vw;
+        width: 98vw;
         height: 15vh;
         background-color: blue;
         margin: 10px;
