@@ -1,16 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
 
-
-
 function App(props) {
- const {employee}=props;
-    
-return(
-  <div className="container">
-  {/* Start your React code here */}
-</div>
-)
+  const { employee } = props;
+  const { name, age, location, bloodGroup, profileImg } = props.employee;
+  return (
+    (
+      <div className="container">
+        {/* Start your React code here */}
+        <div className="image">
+          <img src={profileImg} alt="profile-pic" ></img>
+        </div>
+        <div className='data'>
+          <h2>{name}</h2>
+          <br></br>
+          <p>location</p>
+          <h3>{location}</h3>
+          <br></br>
+          <p>bloodGroup</p>
+          <h3>{bloodGroup}</h3>
+          <br></br>
+          <p>Age</p>
+          <h3>{age}</h3>
+        </div>
+      </div>
+    )
+  )
 }
 
 
