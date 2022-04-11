@@ -1,0 +1,154 @@
+#root{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 8%;
+}
+.site-container{
+    width: 100%;
+    height: 100%;
+}
+.header_container{
+    width: 100%;
+    background: #F7F6F6;
+    border: 1px solid #C1BEBE;
+    box-shadow: 3px 3px 3px #888888;
+    margin-bottom: 20px;
+}
+#header_arrow{
+    display: inline-block;
+    width: 50px;
+    font-size: 30px;
+    transform: scaleY(1.5);
+    color: #D6D6D4;
+    margin: 0;
+    padding: 10px 5px 30px
+}
+.header_name{
+    display: inline-block;
+    position: relative;
+    left: 30%;
+    line-height: 5px;
+}
+.button1{
+    display: inline-block;
+    padding-bottom: 30px;
+}
+button {
+    width: 60px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    background: black;
+    color: white;
+}
+.customer-info{
+    display: inline-block;
+    width: 100%;
+    border: 2px solid #C1BEBE;
+    border-radius: 0.5em;
+    margin-bottom: 20px;
+}
+.employeeDet_Wrapper1{
+    margin: 15px;
+}
+.employee_Detail_Label1{
+    display: inline-block;
+    font-weight: 700;
+}
+.employee_Detail1{
+    display: inline-block;
+    padding-left: 10px;
+}
+.order-info{
+    display: inline-block;
+    width: 100%;
+    border: 2px solid #C1BEBE;
+    border-radius: 0.5em;
+    margin-bottom: 20px;
+    background: #EEEEEC;
+}
+.status-dot{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    top: 290px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.employeeDet_Wrapper2{
+    display: inline-block;
+    margin: 15px;
+    margin-left: -40px;
+    margin-right: 110px;
+    text-align: left;
+    display: inline-table;
+    align-content: space-between;
+}
+.employee_Detail_Label2{
+    font-weight: 700;
+    padding-left: 100px;
+}
+.employee_Detail2{
+    padding-left: 100px;
+    text-align: left;
+}
+.em_date{
+    display: inline-block;
+    color: #645858;
+    font-size: smaller;
+    position: relative;
+    top: 20px;
+    margin-left: -100px;
+}
+.product-list{
+    border: 2px solid #C1BEBE;
+    padding: 30px;
+    display: block;
+    border-radius: 0.5em;
+}
+.check-box-wrapper{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #C7C700;
+    position: absolute;
+    margin-top: 35px;
+}
+.check-box{
+    align-content:center;
+}
+.profileImg{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+.side-text-wrapper{
+    display: inline-block;
+    padding-bottom: 100px;
+    position: absolute;
+}
+.User-role{
+    font-weight: bolder;
+}
+#header_arrow1{
+    top: 14px;
+    width: 40px;
+    font-size: 40px;
+    transform: rotate(180deg);
+    color: #C4C4C1;
+    position: absolute;
+    margin: 0;
+    right: -0em;
+}
