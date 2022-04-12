@@ -1,0 +1,154 @@
+.Post{
+  text-align: center;
+}
+html {
+  font-size: 14px;
+}
+body {
+  line-height: 1.5;
+  color:balck;
+  margin:0;
+  background-color:white;
+  /* text-align: center; */
+} 
+
+
+
+.Header{
+  width: auto;
+  height: auto;
+  border: 1px solid;
+  margin: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5px 10px;
+
+
+}
+
+.InstaClone{
+  width: auto;
+  height: auto;
+  font-weight: 320px;
+  font-family: cursive;
+  color: rgb(109, 8, 8);
+  font-size: 35px;
+  margin-left: 10%;
+  padding: 5px 10px;
+}
+
+.cameraIcon{
+  padding-top: 6px;
+  float: right;
+  margin-right: 10%;
+  width: 15px;
+
+}
+.Header img {
+  margin: 10px;
+  width: 30px;
+  background: none;
+  border: none;
+  border-radius: 5px;
+}
+
+/* ===============POST================== */
+
+.PostContainer{
+  border:1px solid #d5d5d5;
+  border-radius: 5px;
+  height: auto;
+  width: 300px;
+  margin-top: 10px;
+  /* padding: 0%; */
+  /* text-align: center; */
+  margin-left: 40%;
+  top: 50%;
+/* left: 50%; */
+/* margin-left: -150px; */
+margin-bottom: 15px;
+}
+
+/* ===============POST================== */
+
+.PostFooter img{
+  text-align: center;
+   width: 15px;
+   /* display: inline-block; */
+   /* text-align: center; */
+ 
+ }
+
+ /* ===========POST HEADER============ */
+
+ .PostTitle{
+  color: #343434;
+  font-weight: 700;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.PostHeader > div{
+  display: inline-block;
+}
+
+.PostAction{
+ /* width: 80px; */
+ /* width: 100%; */
+ /* width: auto; */
+ font-weight: 600;
+ color: #343434;
+ font-size: 30px;
+ line-height: 30px;
+ /* padding-bottom: 20px; */
+ vertical-align: top;
+ /* margin-right: 0px; */
+ margin-left: 55%;
+
+ cursor: pointer;
+}
+
+.PostTitleWrapper{
+ width: calc(100%-60px);
+ padding: 15px;
+
+}
+
+.PostDescription{
+  color: #b3b3b3;
+}
+.PostImageWrapper img{
+   text-align: center;
+   width: 100%;
+   height: 100%;
+ }
+ .LikeShareContainer div{
+   display: inline-block;
+   margin-top: 0%;
+
+ }
+
+ .LikeIcon, .ShareIcon{
+  margin: 15px;
+  cursor: pointer;
+ }
+ .likeCount div{
+  display: inline-block;
+
+ }
+
+
+ .PostedOn{
+   font-size: 11px;
+  margin-left: 45%;
+ }
+
+ .Likes{
+  margin-left: 15px;
+  margin-top: 0%;
+ }
+ .PostCaption {
+  margin-left: 15px;
+  font-weight: 700;
+  margin-top: 5px;
+}
